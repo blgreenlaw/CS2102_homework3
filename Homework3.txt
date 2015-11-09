@@ -1,0 +1,10 @@
+Question 1: 
+The inteface IWeatherService and our class LinkedListWeather achieve the goal of encapsulating the type of daily weather reports from the WeatherMonitor class.
+For someone to use WestherGlob, they would onyl have to create a WeatherGlob class that implements IWeatherService and make sure that all of the needed methods are in place.
+
+Question 2:
+We privatized all of our fields, so that only the methods can use them if needed. We also put all of our methods into LinkedListWeather which implemented the interface, so WeatherMonitor only uses the methods from LinkedListWeather, so the classes cannot directly get at the fields.
+
+Question 3:
+//We hate the way our code looks and want it to be prettier. We do not know how to do this. Please send help.
+We have lots of duplicate code for calulatin the average high and low for the month, and daily high and low. We do not know how to do this yet, but we would love to fix this. 
